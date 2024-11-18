@@ -1,0 +1,260 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+    color: #333;
+}
+
+.home-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #75977d;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.home-button:hover {
+    background-color: #ddd;
+}
+
+header {
+    background: linear-gradient(45deg, #0e4b27, #75977d);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#albums {
+    background-color: #181717;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#albums h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.album-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.album {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.album img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.album p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#tour {
+    background-color: #0e4b27;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #0e4b27;
+    color: white;
+}
+
+td {
+    background-color: #0e0d0d;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Styling for the golf wang section */
+#golf-wang {
+    padding: 20px;
+    background-color: #0e4b27;
+}
+
+a {
+    color: hotpink;
+}
+
+/* General styling for the rapper sections */
+#other-rappers {
+    padding: 20px;
+    background-color: #0e4b27;
+    margin-top: 30px;
+}
+
+#other-rappers h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.rapper {
+    background-color: #0e0d0d;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(59, 57, 57, 0.1);
+}
+
+.rapper h3 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#fan-form {
+    padding: 20px;
+    background: #c4c7c5;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+#fan-form h2 {
+    font-size: 2rem;
+    color: rgb(1, 20, 2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fbfdfb;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(15, 15, 15);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+/* Tab container */
+.tabs {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Tab list (headers) */
+  .tab-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  
+  .tab-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-item:hover {
+    background-color: #ccc;
+  }
+  
+  /* Active tab */
+  .tab-item.active {
+    background-color: #1D72B8;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Content sections (hidden by default) */
+  .tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  /* Show the active content */
+  .tab-content.active {
+    display: block;
+  }
+  
+  
